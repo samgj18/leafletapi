@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.lorem {
+    font-style: italic;
+    color: #AAA;
+    font-size: 16px;
+}
+
+.sidebar{
+	height: 50vh;
+	position: relative;
+}
+
+.Datos1{
+	display: flex;
+	position: relative;
+	padding-top: 16px;
+    justify-content: space-between;
+	border-radius: 16px;
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    font-size: 16px;
+}
+.Datos{
+	display: flex;
+	position: relative;
+    justify-content: space-between;
+	border-radius: 16px;
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    font-size: 16px;
+	
+}
+
+
+.leaflet-draw-draw-polyline{
+	height: 0px !important;
+}
+.leaflet-draw-draw-polygon{
+
+	height: 0px !important;
+}
+.leaflet-draw-draw-marker{
+
+	height: 0px !important;
+}
+.leaflet-draw-draw-circlemarker{
+
+	height: 0px !important;
+}
+.leaflet-draw-draw-rectangle{
+
+	height: 0px !important;
+}
+input[type="text"], input[type="email"]{
+	display: list-item;
+	width: 100%;
+	border: none;
+	color: #000;
+	padding: 11px;
+	font-family: 'open sans';
+	background: #ecf0f1;
+	border-top:1px solid #ecf0f1 ;
+}
+.datetime{
+	font-family: 'open sans';
+}
+.chart{
+	width: 720px;
+    height: 360px;
+}
